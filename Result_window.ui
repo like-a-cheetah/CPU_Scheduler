@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>472</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QTabWidget" name="TAB">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>3</y>
+     <width>468</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="FCFS_w">
+    <attribute name="title">
+     <string>FCFS</string>
+    </attribute>
+    <widget class="QTableWidget" name="FCFS_r">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>150</y>
+       <width>431</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::NoDragDrop</enum>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>96</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>PID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>대기시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>응답시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>반환시간</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>12</y>
+       <width>441</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="FCFS_C"/>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="SJF_w">
+    <attribute name="title">
+     <string>SJF</string>
+    </attribute>
+    <widget class="QTableWidget" name="SJF_r">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>150</y>
+       <width>431</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>96</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>PID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>대기시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>응답시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>반환시간</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>12</y>
+       <width>441</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="SJF_C"/>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="HRN_w">
+    <attribute name="title">
+     <string>HRN</string>
+    </attribute>
+    <widget class="QTableWidget" name="HRN_r">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>150</y>
+       <width>431</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>96</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>PID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>대기시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>응답시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>반환시간</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>12</y>
+       <width>441</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="HRN_C"/>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="NP_w">
+    <attribute name="title">
+     <string>비선점형Priority</string>
+    </attribute>
+    <widget class="QTableWidget" name="NP_r">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>150</y>
+       <width>431</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>96</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>PID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>대기시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>응답시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>반환시간</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>12</y>
+       <width>441</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="NP_C"/>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="RR_w">
+    <attribute name="title">
+     <string>RR</string>
+    </attribute>
+    <widget class="QTableWidget" name="RR_r">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>150</y>
+       <width>431</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>96</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>PID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>대기시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>응답시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>반환시간</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>12</y>
+       <width>441</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="RR_C"/>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="SRT_w">
+    <attribute name="title">
+     <string>SRT</string>
+    </attribute>
+    <widget class="QTableWidget" name="SRT_r">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>150</y>
+       <width>431</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>96</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>PID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>대기시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>응답시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>반환시간</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>12</y>
+       <width>441</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="SRT_C"/>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="P_w">
+    <attribute name="title">
+     <string>선점형 Priority</string>
+    </attribute>
+    <widget class="QTableWidget" name="P_r">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>150</y>
+       <width>431</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>96</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>PID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>대기시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>응답시간</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>반환시간</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>12</y>
+       <width>441</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="P_C"/>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
