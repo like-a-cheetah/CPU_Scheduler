@@ -26,10 +26,10 @@
 4. 결과창의 탭 버튼을 통해 각각의 결과 확인
 
 ### <결과 예시>
+<img width="249" height="246" alt="image" src="https://github.com/user-attachments/assets/8c975ab7-c7ba-47b5-b039-1fb95263e8b4" />
 <img width="249" height="246" alt="image" src="https://github.com/user-attachments/assets/d73e6c37-3388-4ae8-852d-002dbecdfe3f" />
 <img width="249" height="246" alt="image" src="https://github.com/user-attachments/assets/0bc7f52e-415e-43b2-89c6-4f364472a252" />
 <img width="249" height="246" alt="image" src="https://github.com/user-attachments/assets/968dd44b-c5a5-419c-b3e5-6bd900558027" />
 <img width="249" height="246" alt="image" src="https://github.com/user-attachments/assets/69c4bb07-b550-4ff5-876b-ad64e2fc8b63" />
 <img width="249" height="246" alt="image" src="https://github.com/user-attachments/assets/e54adb0f-24fe-47ac-9d08-7244108ac9d1" />
 <img width="249" height="246" alt="image" src="https://github.com/user-attachments/assets/2af0c58c-7916-4786-b548-a896c1feda9b" />
-<img width="249" height="246" alt="image" src="https://github.com/user-attachments/assets/a18bf49c-865a-4805-87c6-de8f2764a9f1" />
